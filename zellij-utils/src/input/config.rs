@@ -31,7 +31,7 @@ use crate::consts::{DEFAULT_LIGHT_THEME_NAME, DEFAULT_THEME_NAME};
 use crate::envs::EnvironmentVariables;
 use crate::{home, setup};
 
-pub const DEFAULT_CONFIG_FILE_NAME: &str = "config.kdl";
+pub const DEFAULT_CONFIG_FILE_NAME: &str = "fourify_config.kdl";
 
 type ConfigResult = Result<Config, ConfigError>;
 
