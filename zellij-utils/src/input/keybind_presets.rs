@@ -20,15 +20,11 @@ pub const DEFAULT_KEYBIND_PRESET: &str = "default";
 pub const LEADER_PLACEHOLDERS: [&str; 3] = ["primary", "secondary", "unlock"];
 
 pub const DEFAULT_KEYBIND_PRESET_ASSET: &str = include_str!(concat!(
-    env!("CARGO_MANIFEST_DIR"),
-    "/",
-    "assets/keybinds/default.kdl"
+    "../../assets/keybinds/fourify_config.kdl"
 ));
 
 pub const UNLOCK_FIRST_KEYBIND_PRESET_ASSET: &str = include_str!(concat!(
-    env!("CARGO_MANIFEST_DIR"),
-    "/",
-    "assets/keybinds/unlock-first.kdl"
+    "../../assets/keybinds/fourify_config.kdl"
 ));
 
 pub const BUILTIN_KEYBIND_PRESETS: [(&str, &str); 2] = [
